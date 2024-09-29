@@ -24,4 +24,4 @@ Kubeflow Piplines通常可拆成3阶段任务:
 
 ## 基于minst数字样本搭建mlops环境
 
-目标: 让minst模型运行在mlops环境下, 模型部署使用KServe(暂不使用model mash), 输出模型保存在本地存储上, 最终输出的模型可以正确识别手写数字
+目标: 让minst模型运行在mlops环境下, 使用tensorflow作为机器学习框架, 模型部署使用KServe(暂不使用model mash), 输出模型保存在本地存储上, 最终输出的模型可以正确识别手写数字.
